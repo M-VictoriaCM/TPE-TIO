@@ -1,0 +1,10 @@
+/* este archivo css funcionaria para dar estilo a las paginas en construccion hasta que sean creadas correctamente, cosa que en esta instancia no se haria */
+
+body {
+    background-image: url(../img/fondo.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}

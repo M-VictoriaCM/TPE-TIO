@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto. Liga de futbol tresarroyense.</title>
+
+</head>
+
+<body>
+
+    <!---------------------------- barra de navegacion ---------------------------------------------->
+    <header>
+
+        <div class="menu-responsive"><a>Menu</a></div>
+        <nav>
+
+            <ul class="navLista">
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="equipos.html">equipos</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="div-general">
+
+
+        <div class="general3">
+            <!-------------------------- informacion de los creadores de la pagina ---------------------------->
+            <section class="info-pagina">
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                    book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                    'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                    in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+            </section>
+            <div class="general2">
+                <!--------------------------------- tabla dinamica ------------------------------------------------->
+                <section class="dinamica">
+
+                    <div class="form-dinamico">
+                        <form>
+
+                            <label for="posicion"></label>
+                            <input type="text" name="posicion" id="posicion" placeholder="Posicion">
+
+                            <label for="equipo"></label>
+                            <input type="text" name="equipo" id="equipo" placeholder="Equipo">
+
+                            <label for="filtro"></label>
+                            <input type="text" name="filtro" id="filtro" placeholder="Filtrar Equipos">
+
+                        </form>
+
+                        <button id="botonAgregar">agregar</button>
+                        <button id="botonX3">triplete</button>
+
+                    </div>
+
+                    <table class="tabla-dinamica">
+                        <thead>
+                            <tr>
+                                <th>posicion</th>
+                                <th>equipo</th>
+                                <th>opciones</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td>posicion</td>
+                                <td>equipo</td>
+                                <td>opciones</td>
+                            </tr>
+                        </tfoot>
+                        <tbody id="tbody-dinamico">
+
+                        </tbody>
+                    </table>
+
+                </section>
+
+
+
+                <!-------------------------------- formulario de contacto ------------------------------------------->
+                <section class="contacto">
+
+                    <form class="formulario">
+                        <label for="name">nombre:</label>
+                        <input type="text" name="nombre" id="name" required>
+
+                        <label for="last-name">apellido:</label>
+                        <input type="text" name="apellido" id="last-name">
+
+                        <label for="gender">femenino:<input type="radio" name="sexo" id="gender" required></label>
+
+                        <label for="gender">masculino:<input type="radio" name="sexo" id="gender" required></label>
+
+                        <label for="email">email:</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="message">deja tu mensaje aqui:</label>
+                        <textarea name="mensaje" id="message" cols="30" rows="10" maxlength="500" required></textarea>
+
+                        <label for="elcaptcha"></label>
+                        <input type="image" src="img/imagen-captcha.jpg" alt="imagen-captcha">
+
+                        <label for="captcha-ingresado">ingrese el texto:</label>
+                        <input type="text" name="captcha-ingresado" id="captcha-ingresado">
+
+                        <p id="mensaje-usuario"></p>
+
+                        <label for="boton-formulario"></label>
+                        <input type="submit" value="Enviar" id="boton-formulario">
+                    </form>
+
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!---------------------------------- pie de pagina ----------------------------------------------------->
+    <footer>
+
+        <ul class="sociales">
+            <li>copyright 2020. hecho en casa</li>
+            <li>facebook. @xxxxxx</li>
+            <li>twitter. @xxxxxx</li>
+            <li>instagram. @xxxxxx</li>
+        </ul>
+
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/tablaDinamica.js"></script>
+    <script type="text/javascript" src="js/formulario.js"></script>
+
+</body>
+
+</html>

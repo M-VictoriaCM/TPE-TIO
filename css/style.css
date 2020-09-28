@@ -1,0 +1,256 @@
+/********************** general ************************************/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-general {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2.5cm;
+}
+
+button {
+    text-transform: capitalize;
+}
+
+
+/******************** barra de navegacion *********************************/
+
+.menu-responsive,
+.navLista {
+    background-color: green;
+    border-bottom: 5px solid red;
+    text-transform: uppercase;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.navLista {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+ul.navLista.show {
+    /* para cuando tiene la clase show */
+    display: flex;
+}
+
+ul.navLista li:hover {
+    background-color: gray;
+}
+
+
+/**************** pie de pagina **************************/
+
+footer {
+    margin: auto;
+}
+
+.sociales {
+    text-transform: capitalize;
+    list-style: none;
+    background-color: black;
+    border: 2px solid grey;
+}
+
+
+/**************************tabla de posiciones****************************/
+
+thead,
+tfoot {
+    background-color: #4CAF50;
+    color: rgb(14, 2, 2);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+tbody {
+    color: white;
+    text-align: center;
+}
+
+table,
+td,
+tr {
+    border: 1px solid rgb(221, 224, 1);
+    border-collapse: collapse;
+    text-transform: capitalize;
+}
+
+
+/*************************listado de equipos******************************/
+
+.lista {
+    text-transform: capitalize;
+    border: 5px solid black;
+    background-color: rgba(4, 128, 0, 0.37)
+}
+
+li {
+    padding: 10px;
+}
+
+.listado {
+    margin: 2.5%;
+}
+
+
+/************************formulario de contacto***************************/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+input,
+label {
+    margin: 5px;
+}
+
+#mensaje-usuario {
+    text-indent: 0;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(128, 0, 0, 0.705)
+}
+
+
+/************************ tabla dinamica *************************************/
+
+.tabla-dinamica {
+    align-content: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.form-dinamico {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.dinamica {
+    margin-bottom: 20%;
+}
+
+
+/************************ solo para pantallas mayores a 720px *****************************/
+
+@media only screen and (min-width: 720px) {
+    /***general***/
+    .div-general {
+        display: flex;
+        flex-direction: row;
+    }
+    /***bara de navegacion responsive***/
+    .menu-responsive {
+        display: none;
+    }
+    ul.navLista {
+        display: flex;
+        flex-direction: row;
+    }
+    /***pie de pagina***/
+    .sociales {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    /***info de la liga***/
+    .info-liga {
+        width: 50%;
+        margin: 5%;
+    }
+    /***imagen de la liga***/
+    .imagen-liga {
+        margin: 5%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .en-index {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 5%;
+    }
+    /***tabla de posiciones***/
+    .posiciones {
+        margin: 5%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /***listado de equipos***/
+    .listado {
+        width: 20%;
+    }
+    /***info de equipos***/
+    .info-equipo {
+        width: 40%;
+    }
+    /***imagen de equipo***/
+    .imagen-huracan {
+        width: 75%;
+        height: 50%;
+        margin: 10%;
+    }
+    .imagen-equipo {
+        width: 40%;
+    }
+    /***info de los creadores de la pagina***/
+    .info-pagina {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    /***tabla dinamica***/
+    /***formulario de contacto***/
+    .contacto,
+    .dinamica {
+        width: 50%;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+    .general2 {
+        display: flex;
+    }
+    .general3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
