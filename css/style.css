@@ -114,18 +114,19 @@ tr {
     text-transform: capitalize;
     border: 3px solid black;
     background-color: rgba(4, 128, 0, 0.37);
-    list-style:none;
+    list-style: none;
 }
 
 li {
     padding: 10px;
 }
 
-.lista  li:hover{
+.lista li:hover {
     background-color: black;
 }
-li .active{
-    background-color: rgba(19, 233, 12, 0.37); 
+
+li .active {
+    background-color: rgba(19, 233, 12, 0.37);
 }
 
 .listado {
@@ -140,6 +141,12 @@ li .active{
     flex-direction: column;
     text-transform: capitalize;
     text-align: center;
+}
+
+.tabla-dinamica,
+.formulario,
+.form-dinamico {
+    background-color: rgba(3, 56, 11, 0.568);
 }
 
 input,

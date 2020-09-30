@@ -1,0 +1,166 @@
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios
+$ git clone https://github.com/M-VictoriaCM/TPE-TIO.git
+Cloning into 'TPE-TIO'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 594 bytes | 23.00 KiB/s, done.
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios
+$ cd TPE-TIO
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LogFiles/
+        ScreenShot Desktop.png
+        ScreenShot Mobile.png
+        contacto.html
+        css/
+        enconstruccion.html
+        equipos.html
+        img/
+        index.html
+        js/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git add README.md
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LogFiles/
+        ScreenShot Desktop.png
+        ScreenShot Mobile.png
+        contacto.html
+        css/
+        enconstruccion.html
+        equipos.html
+        img/
+        index.html
+        js/
+
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git add .
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   LogFiles/GitLog_Jonatan.txt
+        new file:   LogFiles/GitLog_Victoria.txt
+        new file:   LogFiles/GitLog_Yamila.txt
+        modified:   README.md
+        new file:   ScreenShot Desktop.png
+        new file:   ScreenShot Mobile.png
+        new file:   contacto.html
+        new file:   css/enconstruccion.css
+        new file:   css/style.css
+        new file:   enconstruccion.html
+        new file:   equipos.html
+        new file:   img/fondo.jpg
+        new file:   img/huracan.jpg
+        new file:   img/imagen-captcha.jpg
+        new file:   img/liga.jpg
+        new file:   index.html
+        new file:   js/formulario.js
+        new file:   js/main.js
+        new file:   js/tablaDinamica.js
+
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git commit -m "readme modificado, agregados archivos con los cuales se trabajara"
+[master 05e3b45] readme modificado, agregados archivos con los cuales se trabajara
+ 19 files changed, 978 insertions(+), 1 deletion(-)
+ create mode 100644 LogFiles/GitLog_Jonatan.txt
+ create mode 100644 LogFiles/GitLog_Victoria.txt
+ create mode 100644 LogFiles/GitLog_Yamila.txt
+ create mode 100644 ScreenShot Desktop.png
+ create mode 100644 ScreenShot Mobile.png
+ create mode 100644 contacto.html
+ create mode 100644 css/enconstruccion.css
+ create mode 100644 css/style.css
+ create mode 100644 enconstruccion.html
+ create mode 100644 equipos.html
+ create mode 100644 img/fondo.jpg
+ create mode 100644 img/huracan.jpg
+ create mode 100644 img/imagen-captcha.jpg
+ create mode 100644 img/liga.jpg
+ create mode 100644 index.html
+ create mode 100644 js/formulario.js
+ create mode 100644 js/main.js
+ create mode 100644 js/tablaDinamica.js
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git log
+commit 05e3b4505dfe9aee0180cb95652b12f4479b3375 (HEAD -> master)
+Author: Jonatan <jljonatan@hotmail.com>
+Date:   Sun Sep 27 23:05:06 2020 -0300
+
+    readme modificado, agregados archivos con los cuales se trabajara
+
+commit 44e9fe88016750000f20d8486e180dbcdfb99144 (origin/master, origin/HEAD)
+Author: M-VictoriaCM <70769530+M-VictoriaCM@users.noreply.github.com>
+Date:   Sun Sep 27 21:26:23 2020 -0300
+
+    Initial commit
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git push origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (23/23), 2.66 MiB | 1.00 MiB/s, done.
+Total 23 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/M-VictoriaCM/TPE-TIO.git
+   44e9fe8..05e3b45  master -> master
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+jljon@Jonatan-PC MINGW64 /c/xampp/htdocs/proyectos/TIO/GitHub repositorios/TPE-TIO (master)
+$
