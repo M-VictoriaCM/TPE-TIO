@@ -44,11 +44,11 @@ button {
 
 .menu-responsive,
 .navLista {
-    background-color: green;
-    border-bottom: 5px solid red;
+    background-color: rgb(1, 14, 1);
     text-transform: uppercase;
     margin-left: 15%;
     margin-right: 15%;
+    cursor: pointer;
 }
 
 .navLista {
@@ -66,7 +66,7 @@ ul.navLista.show {
 }
 
 ul.navLista li:hover {
-    background-color: gray;
+    background-color: rgb(10, 99, 10);
 }
 
 
